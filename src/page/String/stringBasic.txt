@@ -1,0 +1,8 @@
+import { string, object } from 'yup';
+	//...
+	<Formik
+	validationSchema={object({
+		name: string(),
+	})}
+	initialValues={{ name: '' }}
+>
